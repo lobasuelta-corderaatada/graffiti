@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="flex flex-row">
+        <section class="flex h-screen w-1/3 items-center justify-center bg-gray-300">
+          <form action="" class="flex h-5/6 w-11/12 flex-col justify-between bg-gray-200 p-6">
+            <div>
+              <p class="">Ingrese un texto</p>
+              <input type="text" name="texto" id="texto" />
+      
+              <p>Ingrese un color</p>
+              <input type="color" name="" id="color" />
+      
+              <div class="flex">
+                <input type="radio" id="graf" name="fontStyle" value="Comic Sans MS" />
+                <label for="dewey">Graffiti</label>
+              </div>
+      
+              <div>
+                <input type="radio" id="normal" name="fontStyle" value="Calibri" />
+                <label for="dewey">Normal</label>
+              </div>
+            </div>
+      
+            <button class="h-14 border border-b-4 border-l-4 border-black bg-yellow-200 pl-4 pr-28 text-xl font-extrabold">SUBMIT</button>
+          </form>
+        </section>
+      
+        <section class="flex h-screen w-2/3 items-center justify-center bg-pink-200">
+          <div id="container" class="h-5/6 w-11/12 bg-pink-100 flex flex-row ">
+            <!-- <div class="ml-7 mt-16 flex h-60 w-60 flex-col bg-slate-50 text-center text-2xl font-extrabold">
+              <span class="pr-7 text-right text-sm font-normal">x</span>
+              Hola Mundo
+            </div>
+      
+            <div class="ml-7 mt-16 flex h-60 w-60 flex-col bg-slate-50 text-center text-2xl font-extrabold">
+              <span class="pr-7 text-right text-sm font-normal">x</span>
+              Hola Mundo
+            </div> -->
+          </div>
+        </section>
+      </div>
+      <script src="/index.js"></script>    
+</body>
+</html>
